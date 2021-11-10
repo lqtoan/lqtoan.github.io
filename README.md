@@ -1,5 +1,5 @@
 # lqtoan.github.io
 ## my github pages
 
-homepage: https://lqtoan.github.io/homepage/<br>
-learn-angular-v11: https://lqtoan.github.io/learn-angular-v11/
+homepage: <a href="https://lqtoan.github.io/homepage/" </a><br>
+learn-angular-v11:  <a href="https://lqtoan.github.io/learn-angular-v11/" </a><br>
