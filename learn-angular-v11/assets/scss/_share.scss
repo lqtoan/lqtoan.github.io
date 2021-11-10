@@ -6,6 +6,15 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: $font-family;
+}
+
+nav {
+  margin: $margin/2;
+  padding: $padding;
+}
+
 h1,
 h2 {
   margin: $margin/2;
@@ -16,6 +25,24 @@ span {
   margin: $margin/3;
 }
 
+p {
+  margin: $margin/4;
+}
+
+a {
+  color: $blue;
+  background-color: $dark-blue;
+  padding: $padding/2;
+  margin: $margin/3;
+  list-style: none;
+  text-decoration: none;
+  border-radius: $border-radius;
+  box-shadow: $shadow-radius/3 $shadow-radius/3 $shadow-stregth $black;
+}
+a:hover {
+  color: $white;
+}
+
 input,
 input:focus-visible {
   border: unset;
@@ -23,6 +50,7 @@ input:focus-visible {
   margin: $margin/3;
   padding: $padding/2;
   border-radius: $border-radius;
+  box-shadow: $shadow-radius/3 $shadow-radius/3 $shadow-stregth $black;
 }
 
 button,
@@ -33,6 +61,7 @@ button:focus {
   padding: $padding/2;
   background-color: $dark-blue;
   border-radius: $border-radius;
+  box-shadow: $shadow-radius/3 $shadow-radius/3 $shadow-stregth $black;
 }
 
 button:hover {

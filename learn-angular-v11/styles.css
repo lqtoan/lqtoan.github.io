@@ -4,6 +4,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: VNF Comic Sans;
+}
+nav {
+  margin: 15px;
+  padding: 15px;
+}
 h1,
 h2 {
   margin: 15px;
@@ -12,6 +19,22 @@ h3,
 span {
   margin: 10px;
 }
+p {
+  margin: 7.5px;
+}
+a {
+  color: #81a1c1;
+  background-color: #5e81ac;
+  padding: 7.5px;
+  margin: 10px;
+  list-style: none;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 2.5px 2.5px 5px #3b4252;
+}
+a:hover {
+  color: #e5e9f0;
+}
 input,
 input:focus-visible {
   border: unset;
@@ -19,6 +42,7 @@ input:focus-visible {
   margin: 10px;
   padding: 7.5px;
   border-radius: 10px;
+  box-shadow: 2.5px 2.5px 5px #3b4252;
 }
 button,
 button:focus {
@@ -28,6 +52,7 @@ button:focus {
   padding: 7.5px;
   background-color: #5e81ac;
   border-radius: 10px;
+  box-shadow: 2.5px 2.5px 5px #3b4252;
 }
 button:hover {
   background-color: #81a1c1;
