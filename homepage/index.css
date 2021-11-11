@@ -92,6 +92,7 @@ div#bookmarks {
 .bookmarks {
 	width: var(--bookmarks-width);
 	margin: 1vw 1vh;
+	padding: 0vw 5vh;
 }
 
 ul {
