@@ -7,13 +7,17 @@
 body {
   font-family: VNF Comic Sans;
 }
+div,
 nav {
   margin: 15px;
   padding: 15px;
+  border: 2px solid #3b4252;
+  border-radius: 10px;
+  box-shadow: 3.75px 3.75px 5px #3b4252;
 }
 h1,
 h2 {
-  margin: 15px;
+  margin: 10px;
 }
 h3,
 span {
@@ -23,17 +27,17 @@ p {
   margin: 7.5px;
 }
 a {
-  color: #81a1c1;
+  color: #d8dee9;
   background-color: #5e81ac;
   padding: 7.5px;
-  margin: 10px;
+  margin-left: 15px;
   list-style: none;
   text-decoration: none;
   border-radius: 10px;
   box-shadow: 2.5px 2.5px 5px #3b4252;
 }
 a:hover {
-  color: #e5e9f0;
+  color: #ECEFF4;
 }
 input,
 input:focus-visible {
@@ -47,7 +51,7 @@ input:focus-visible {
 button,
 button:focus {
   border: unset;
-  color: #e5e9f0;
+  color: #ECEFF4;
   margin: 10px;
   padding: 7.5px;
   background-color: #5e81ac;
@@ -62,7 +66,7 @@ body {
   flex-direction: row;
   justify-content: center;
   padding: 15px;
-  color: #3b4252;
+  color: #2e3440;
   background-color: #5e81ac;
 }
 

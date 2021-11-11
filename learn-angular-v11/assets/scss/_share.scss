@@ -10,14 +10,18 @@ body {
   font-family: $primary-font;
 }
 
+div,
 nav {
   margin: $margin/2;
   padding: $padding;
+  border: $border solid $gray;
+  border-radius: $border-radius;
+  box-shadow: $shadow-radius/2 $shadow-radius/2 $shadow-stregth $gray;
 }
 
 h1,
 h2 {
-  margin: $margin/2;
+  margin: $margin/3;
 }
 
 h3,
@@ -30,14 +34,14 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $dark-white;
   background-color: $dark-blue;
   padding: $padding/2;
-  margin: $margin/3;
+  margin-left: $margin/2;
   list-style: none;
   text-decoration: none;
   border-radius: $border-radius;
-  box-shadow: $shadow-radius/3 $shadow-radius/3 $shadow-stregth $black;
+  box-shadow: $shadow-radius/3 $shadow-radius/3 $shadow-stregth $gray;
 }
 a:hover {
   color: $white;
@@ -50,7 +54,7 @@ input:focus-visible {
   margin: $margin/3;
   padding: $padding/2;
   border-radius: $border-radius;
-  box-shadow: $shadow-radius/3 $shadow-radius/3 $shadow-stregth $black;
+  box-shadow: $shadow-radius/3 $shadow-radius/3 $shadow-stregth $gray;
 }
 
 button,
@@ -61,7 +65,7 @@ button:focus {
   padding: $padding/2;
   background-color: $dark-blue;
   border-radius: $border-radius;
-  box-shadow: $shadow-radius/3 $shadow-radius/3 $shadow-stregth $black;
+  box-shadow: $shadow-radius/3 $shadow-radius/3 $shadow-stregth $gray;
 }
 
 button:hover {
