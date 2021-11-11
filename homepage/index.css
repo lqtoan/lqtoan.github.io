@@ -8,6 +8,7 @@
 	
 	/* bookmark height total = 54 vh */
 	--bookmarks-height: 54vh;
+	--bookmarks-width: 20vw;
 	
 	/* footer height total = 5 vh */
 	--footer-height: 5vh;
@@ -89,6 +90,7 @@ div#bookmarks {
 }
 
 .bookmarks {
+	width: var(--bookmarks-width);
 	margin: 1vw 1vh;
 }
 
@@ -138,6 +140,7 @@ div#footer p {
 		--top-heigt: 15vh;
 		--top-margin: 0vh;
 		--bookmarks-height: 80vh;
+		--bookmark-width: 40vw;
 		--footer-height: 5vh;
 	}
 }
