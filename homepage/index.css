@@ -146,6 +146,16 @@ div#footer p {
 	}
 }
 
+@media screen and (max-width: 1024px) {
+	:root {
+		--top-heigt: 15vh;
+		--top-margin: 0vh;
+		--bookmarks-height: 80vh;
+		--bookmarks-width: 40vw;
+		--footer-height: 5vh;
+	}
+}
+
 @media  screen and (max-height: 300px) {
 	:root {
 		--top-heigt: 10vh;
