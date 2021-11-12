@@ -1,7 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-/* Responsive Breakpoint */
-/* min-width */
-/* set max-width like bootstrap */
 * {
   margin: 0;
   padding: 0;
@@ -54,9 +51,19 @@ button:focus {
 button:hover {
   background-color: #81a1c1;
 }
-/* Responsive Breakpoint */
-/* min-width */
-/* set max-width like bootstrap */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  border: none;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #81a1c1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5e81ac;
+}
 body {
   font-family: VNF Comic Sans;
   color: #2e3440;

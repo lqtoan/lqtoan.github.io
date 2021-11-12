@@ -58,3 +58,24 @@ button:focus {
 button:hover {
   background-color: $blue;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  border: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $blue;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $dark-blue;
+}
+
+// /* Handle on hover */
+// ::-webkit-scrollbar-thumb:hover {
+//   background: $b;
+// }
