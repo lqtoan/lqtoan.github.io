@@ -6,31 +6,18 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: $primary-font;
-}
+h1,
+h2,
+h3,
+span,
+p {
+  line-height: $line-height;
+  margin: $margin/3;
+} 
 
-div,
 nav {
   margin: $margin/2;
   padding: $padding;
-  border: $border solid $gray;
-  border-radius: $border-radius;
-  box-shadow: $shadow-radius/2 $shadow-radius/2 $shadow-stregth $gray;
-}
-
-h1,
-h2 {
-  margin: $margin/3;
-}
-
-h3,
-span {
-  margin: $margin/3;
-}
-
-p {
-  margin: $margin/4;
 }
 
 a {
