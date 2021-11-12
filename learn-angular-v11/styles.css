@@ -1,4 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: VNF Comic Sans;
+  src: url(/src/assets/fonts/VNF-Comic-Sans.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +24,7 @@ a {
   color: #d8dee9;
   background-color: #5e81ac;
   padding: 7.5px;
-  margin-left: 15px;
+  margin-right: 15px;
   list-style: none;
   text-decoration: none;
   border-radius: 10px;
@@ -63,6 +67,10 @@ button:hover {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #5e81ac;
+}
+@font-face {
+  font-family: VNF Comic Sans;
+  src: url(/src/assets/fonts/VNF-Comic-Sans.ttf);
 }
 body {
   font-family: VNF Comic Sans;

@@ -24,11 +24,11 @@ a {
   color: $dark-white;
   background-color: $dark-blue;
   padding: $padding/2;
-  margin-left: $margin/2;
+  margin-right: $margin/2;
   list-style: none;
   text-decoration: none;
   border-radius: $border-radius;
-  box-shadow: $shadow-radius/3 $shadow-radius/3 $shadow-stregth $gray;
+  box-shadow: $shadow-offset/3 $shadow-offset/3 $blur-radius $gray;
 }
 a:hover {
   color: $white;
@@ -41,7 +41,7 @@ input:focus-visible {
   margin: $margin/3;
   padding: $padding/2;
   border-radius: $border-radius;
-  box-shadow: $shadow-radius/3 $shadow-radius/3 $shadow-stregth $gray;
+  box-shadow: $shadow-offset/3 $shadow-offset/3 $blur-radius $gray;
 }
 
 button,
@@ -52,7 +52,7 @@ button:focus {
   padding: $padding/2;
   background-color: $dark-blue;
   border-radius: $border-radius;
-  box-shadow: $shadow-radius/3 $shadow-radius/3 $shadow-stregth $gray;
+  box-shadow: $shadow-offset/3 $shadow-offset/3 $blur-radius $gray;
 }
 
 button:hover {

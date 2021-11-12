@@ -1,3 +1,8 @@
+@font-face {
+  font-family: VNF Comic Sans;
+  src: url(/src/assets/fonts/VNF-Comic-Sans.ttf);
+}
+
 $red: #bf616a;
 $green: #a3be8c;
 $yellow: #ebcb8b;
@@ -12,17 +17,20 @@ $gray: #3b4252;
 
 $margin: 30px;
 $padding: 15px;
-$shadow-radius: 7.5px;
-$shadow-stregth: 5px;
+$shadow-offset: 7.5px;
+$blur-radius: 5px;
+$spread-radius: 0;
+
 $border: 2px;
 $border-radius: 10px;
 
 $primary-font: VNF Comic Sans;
 $line-height: 150%;
 
-// /* Responsive Breakpoint */
-// $desktop: 1026px; /* min-width */
-// $tablet: 1025px;
-// $mobile: 767px;
-
-// $max-width-container: 1320px; /* set max-width like bootstrap */
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
