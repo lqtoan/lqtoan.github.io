@@ -158,8 +158,7 @@ div#footer p {
 		--footer-height: 5vh;
 	}
 	.bookmarks {
-		padding: 0vh 10vw;
-		width: calc(50% - 2vw);
+		width: calc(50% - 10vw);
 	}
 }
 @media screen and (max-width: 320px) {
@@ -175,8 +174,7 @@ div#footer p {
 		overflow: unset;
 	}
 	.bookmarks {
-		padding: 0vh 20vw;
-		width: calc(100% - 2vw);
+		width: calc(100% - 10vw);
 	}
 	ul li,
 	ul p {
