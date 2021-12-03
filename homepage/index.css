@@ -91,9 +91,8 @@ div#bookmarks {
 
 .bookmarks {
 	display: flex;
-	margin: 1vh 1vw 5vh;
-	padding: 0vh 2.5vw;
-	width: calc(25% - 2vw);
+	margin: 1vh 5vw 5vh;
+	width: calc(25% - 10vw);
 	list-style-type: none;
 	flex-direction: column;
 	flex-wrap: wrap;
