@@ -103,6 +103,7 @@ div#bookmarks {
 
 ul p {
 	color: #eceff4;
+	width: max-content;
 	/* text-align: center; */
 }
 
