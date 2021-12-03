@@ -92,7 +92,7 @@ div#bookmarks {
 
 .bookmarks {
 	display: flex;
-	margin: 1vh 10vw 2vh;
+	margin: 1vh 10vw 5vh 0;
 	width: calc(25% - 10vw);
 	list-style-type: none;
 	flex-direction: column;
