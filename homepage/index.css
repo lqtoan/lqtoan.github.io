@@ -79,6 +79,7 @@ input[type=search]:focus {
 
 /*--- Main ---*/
 div#bookmarks {
+	margin-left: -10vw;
 	display: flex;
 	height: var(--bookmarks-height);
 	flex-direction: row;
@@ -91,7 +92,7 @@ div#bookmarks {
 
 .bookmarks {
 	display: flex;
-	margin: 1vh 5vw 5vh;
+	margin-left: 10vw;
 	width: calc(25% - 10vw);
 	list-style-type: none;
 	flex-direction: column;
