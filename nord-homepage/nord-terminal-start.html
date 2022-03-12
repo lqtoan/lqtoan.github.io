@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>toan@home > newtab</title>
+
+  <style>
+    html {
+      align-items: center;
+      background-color: #2e3440;
+      color: #c5c8c6;
+      display: flex;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    h1 {
+	color: #eceff4;
+	text-align: center;
+}
+
+    #top p {
+	color: #eceff4;
+	text-align: center;
+}
+
+    p {
+      margin: 0;
+    }
+
+    p .name {
+      color: #ebcb8b;
+    }
+
+    p .a {
+      color: #bf616a;
+    }
+
+    p .homepage {
+      color: #b48ead;
+    }
+
+    a {
+      font-weight: normal;
+      text-decoration: none;
+      transition: all 260ms;
+    }
+
+    a:visited,
+a:link {
+  color: #7c818c;
+  font-style: italic;
+  font-size: 90%;
+}
+
+a:hover {
+	color: #eceff4;
+}
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      column-gap: 8rem;
+    display: flex;
+    grid-template-columns: auto auto auto auto;
+    padding: 1rem 0 0;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    }
+
+    ul:nth-child(1n) .headline {
+      color: #a3be8c;
+    }
+
+    ul:nth-child(2n) .headline {
+      color: #5e81ac;
+    }
+    
+    ul:nth-child(3n) .headline {
+      color: #81a1c1;
+    }
+    
+    ul:nth-child(4n) .headline {
+      color: #88c0d0;
+    }
+
+    ul:nth-child(5n) .headline {
+      color: #8fbcbb;
+    }
+
+    .headline {
+      font-weight: bold;
+    }
+
+    li:last-child {
+      margin: 0 0 1rem;
+    }
+
+    p #cursor {
+      background-color: #eceff4;
+      animation: blink 2s infinite;
+    }
+
+    @keyframes blink {
+      0% { opacity: 0; }
+      49% { opacity: 0; }
+      50% { opacity: 1; }
+    }
+
+    @media screen and (max-width: 767px) {
+      html {
+        height: unset;
+      }
+	    nav {
+      column-gap: 2em;
+    display: flex;
+    padding: 1em 0;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    }
+}
+  </style>
+</head>
+<body>
+  <div id="top">
+    <h1>Toan Homepage 😎</h1>
+  </div>
+  <p><span class="name">toan</span><span class="a">@</span><span class="homepage">homepage > </span> just a hobby, wont be big and professional</p>
+
+  <nav>
+    <ul>
+      <li class="headline">Social</li>
+      <li><a href="https://facebook.com">Facebook</a></li>
+      <li><a href="https://app.slack.com/client/">Slack</a><li>
+      <li>
+        <a href="https://github.com/lqtoan?tab=repositories">Github</a>
+      </li>
+
+      <li><a href="https://mail.google.com">Gmail</a></li>
+      <li><a href="https://web.telegram.org">Telegram</a></li>
+      <li><a href="https://chat.zalo.me/">Zalo</a></li>
+      <li><a href="https://instagram.com">Instagram</a></li>
+      <li><a href="https://twitter.com">Twitter</a></li>
+      <li><a href="https://www.linkedin.com/in/lqtoan/">LinkedIn</a></li>
+    </ul>
+    <ul>
+      <li class="headline">Search</lu>
+      <li><a href="https://www.google.com/">Google</a></li>
+      <li><a href="https://youtube.com">Youtube</a></li>
+      <li><a href="https://archlinux.org/">Arch linux</a></li>
+    </ul>
+    <ul>
+      <li class="headline">Learn, Practice and Work</li>
+      <li><a href="https://bitbucket.org/dashboard/overview">Bitbucket</a></li>
+      <li><a href="https://trello.com/">Trello</a></li>
+      <li><a href="https://figma.com/">Figma</a></li>
+      <li><a href="https://stackblitz.com/">Stackblitz</a></li>
+      <li><a href="https://dribbble.com/">Dribbble</a></li>
+      <li><a href="https://freebiesbug.com/">Freebiesbug</a></li>
+      <li><a href="https://magdeleine.co/browse/">Magdeleine</a></li>
+      <li><a href="https://saaslandingpage.com/">Saaslandingpage</a></li>
+    </ul>
+    <ul>
+      <li class="headline">Documents</li>
+      <li><a href="https://angular.io/tutorial">Angular</a></li>
+      <li>
+        <a href="https://www.programiz.com/python-programming">Python</a>
+      </li>
+    </ul>
+  </nav>
+
+  <p><span class="name">toan</span><span class="a">@</span><span class="homepage">homepage > </span><span id="cursor">_</span></p>
+</body>
+</html>
