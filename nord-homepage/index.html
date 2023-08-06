@@ -5,6 +5,12 @@
   <title>toan@home > newtab</title>
 
   <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
     html {
       align-items: center;
       background-color: #2e3440;
@@ -12,6 +18,7 @@
       display: flex;
       justify-content: center;
       height: 100vh;
+      font-size: 24px;
     }
 
     body {
@@ -21,6 +28,7 @@
     }
 
     h1 {
+      padding: 24px 0;
       color: #eceff4;
       text-align: center;
     }
@@ -32,6 +40,8 @@
 
     p {
       margin: 0;
+      padding: 8px 0;
+      font-weight: 600;
     }
 
     p .name {
@@ -47,8 +57,8 @@
     }
 
     a {
+      display: block;
       font-weight: normal;
-      font-size: 90%;
       text-decoration: none;
       transition: all 260ms;
     }
@@ -97,16 +107,15 @@
     }
 
     .headline {
-      font-weight: bold;
+      font-weight: 600;
+    }
+
+    li {
+      padding: 4px;
     }
 
     li:last-child {
       margin: 0 0 1rem;
-    }
-
-    p #cursor {
-      background-color: #eceff4;
-      animation: blink 2s infinite;
     }
 
     @keyframes blink {
@@ -200,9 +209,6 @@
       <li><a href="https://ngrx.io/guide/component-store">NgRx Component Store</a></li>
     </ul>
   </nav>
-
-  <p><span class="name">toan</span><span class="a">@</span><span class="homepage">homepage > </span><span
-          id="cursor">_</span></p>
 </body>
 
 </html>
